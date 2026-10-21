@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "friends_server",
+  "version": "${version}",
+  "name": "Friends Server",
+  "description": "Custom server and client features for the friends' Cobblemon server.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.friends.server.FriendsServerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
