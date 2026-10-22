@@ -32,15 +32,20 @@ Chunky로 지형을 미리 만들려면 운영자 권한으로 `/chunky center <
 
 클라이언트 전용 모드는 서버 `mods` 폴더에 넣지 않고 각 플레이어의 게임에 설치합니다. Cobblemon과 서버·클라이언트 양쪽에서 필요한 모드는 참여자 모두 같은 호환 버전으로 맞춥니다.
 
-### 플러그인 테스트 후보
+### 플러그인 후보와 역할
 
-- EssentialsX: 기본 잔액·송금 등 경제 기능
-- Vault: 경제 플러그인 연동 API
-- TAB: 사이드바와 플레이어 목록 UI
-- Shopkeepers: NPC 상점
-- LuckPerms: 운영진·플레이어 권한 관리
+플러그인은 모두 Paper/Spigot 계열을 대상으로 만들어졌습니다. [Cardboard의 1.21.1 지원 상태가 Low](https://github.com/CardboardPowered/cardboard)이므로 Fabric + Cardboard 조합에서의 실제 호환은 검증되지 않았습니다. 별도 복사본에서 하나씩 시험해야 합니다.
 
-EssentialsX를 잔액의 기준으로 삼는 동안 CobbleDollars 같은 별도 경제 모드는 함께 사용하지 않습니다. 서로 다른 경제 시스템을 동시에 쓰면 잔액과 거래가 분리될 수 있습니다.
+- [EssentialsX](https://essentialsx.net/): 잔액, 송금, 아이템 판매 가격 설정, `/withdraw <금액>`으로 실물 지폐 인출
+- [Vault](https://www.spigotmc.org/resources/vault.34315/): 경제 플러그인을 상점 플러그인과 연결하는 API
+- [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) + [TAB](https://modrinth.com/plugin/tab-was-taken): 잔액 플레이스홀더를 오른쪽 사이드바에 표시
+- [EconomyShopGUI](https://www.spigotmc.org/resources/economyshopgui.69927/): 작물·광물 등 일반 아이템의 구매/판매 상점
+- [Shopkeepers](https://www.spigotmc.org/resources/shopkeepers.80756/): NPC 상점이 꼭 필요할 때 추가로 시험할 후보
+- [LuckPerms](https://luckperms.net/): 운영진·플레이어 권한 관리
+
+경제 잔액의 기준은 EssentialsX 하나로 둡니다. CobbleDollars나 Cobblemon Economy를 함께 잔액 기준으로 사용하면 잔액이 분리될 수 있으므로, 이 구성에는 넣지 않습니다. EssentialsX의 `/withdraw`는 원하는 지폐 기능과 비슷하지만 명령어가 `/화폐`는 아닙니다. 별칭 설정으로 이름을 바꿀 수 있는지 시험 서버에서 확인합니다.
+
+플러그인은 Cardboard와 Cobblemon에서 함께 실행되는지 확인되기 전까지 확정 설치로 보지 않습니다. 안정적인 플러그인 구동이 안 되면 Paper 플러그인을 억지로 끼우지 않고, Cobblemon용 Fabric 경제 모드 등으로 방향을 바꿉니다.
 
 ## 구현된 기능
 
