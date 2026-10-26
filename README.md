@@ -7,7 +7,7 @@
 - Minecraft `1.21.1`
 - Fabric 모드 로더
 - 귀환서는 이 프로젝트의 Fabric 모드로 구현
-- 탐험 지도 UI는 클라이언트 모드 JourneyMap 사용
+- 지도 기능은 Cobblemon 자체 기능 사용
 - Bukkit 플러그인은 핵심 기능을 만든 뒤 Cardboard 호환성을 별도 테스트
 
 ### 서버 모드
@@ -16,17 +16,19 @@
 - Farmer's Delight Refabricated `3.3.6`: 농사와 요리 확장
 - Cobblemon - Exp. All `0.0.2`
 - Cobblemon Ultra Space `1.4.1`
+- Lithium `0.15.4`, FerriteCore `7.0.3`: 게임 처리 및 메모리 최적화
 - Chunky `1.4.23`: 플레이어 입장 전 지형 사전 생성
 
 ### 클라이언트 편의 모드
 
-- JourneyMap `6.0.9`: 탐험 지도 UI
 - Cobblemon Party Extras `1.8.15`
 - Cobblemon Highlight `1.1.0`
-- Cobblemon Info `2.32.0` with EMI `1.1.24`
-- Sodium `0.8.13`, Lithium `0.15.4`, FerriteCore `7.0.3`: 렌더링·게임 처리·메모리 최적화
+- Cobblemon Info `2.32.1` with EMI `1.1.24`
+- Sodium `0.8.13`: 렌더링 최적화
 
 Fabric API `0.116.17+1.21.1`, Fabric Language Kotlin `1.14.2`, Architectury API `13.0.11`은 필수 의존성입니다. REI/JEI/EMI 중 EMI를 선택했습니다.
+
+전체 모드 구성은 Modrinth App에서 가져올 수 있는 [`Cobblemon-Server-Mods-1.21.1-Fabric.mrpack`](./Cobblemon-Server-Mods-1.21.1-Fabric.mrpack)으로 제공합니다. 모드 JAR은 각 제작자의 Modrinth 배포처에서 런처가 내려받습니다.
 
 Chunky로 지형을 미리 만들려면 운영자 권한으로 `/chunky center <X> <Z>`, `/chunky radius 1000`, `/chunky start`를 실행합니다. `<X> <Z>`는 로비 좌표로 바꾸고, 작업이 끝난 뒤 플레이어 접속을 허용합니다. 사전 생성은 새 청크 생성 중의 멈춤을 줄여주지만 렌더링 FPS나 RAM 부족을 해결하지는 않습니다.
 
@@ -55,7 +57,7 @@ Chunky로 지형을 미리 만들려면 운영자 권한으로 `/chunky center <
 
 ### 탐험 지도
 
-JourneyMap을 클라이언트에 설치해 사용합니다. Minecraft `1.21.1` 및 Fabric과 호환되는 버전을 선택합니다. 지도 UI와 발견 기록은 JourneyMap이 관리하며, 이 프로젝트의 모드에는 포함하지 않습니다.
+지도 기능은 Cobblemon 자체 기능을 사용합니다. 별도의 JourneyMap 설치는 필요하지 않습니다.
 
 귀환서 모드는 빌드까지 확인했습니다. 실제 Minecraft에서의 플레이 테스트는 아직 필요합니다.
 
@@ -72,7 +74,6 @@ JourneyMap을 클라이언트에 설치해 사용합니다. Minecraft `1.21.1` �
 1. Fabric 테스트 서버를 실행하고 Minecraft `1.21.1`에서 접속 확인
 2. Cobblemon과 필수 서버 모드를 추가하고 서버·클라이언트 호환 확인
 3. Fabric 모드에 로비 위치 설정과 귀환서 우클릭 이동 구현
-4. 클라이언트에 JourneyMap을 설치하고 지도 및 탐험 기록 확인
-5. Farmer's Delight와 Exp. All을 추가하고 클라이언트 접속 및 월드 저장 확인
-6. 경제·상점 기능을 정한 뒤 필요한 플러그인을 하나씩 추가하고 Cardboard 호환성 검증
-7. 백업·재시작·재접속을 포함해 테스트한 뒤 실제 친구용 서버로 옮김
+4. Farmer's Delight와 Exp. All을 추가하고 클라이언트 접속 및 월드 저장 확인
+5. 경제·상점 기능을 정한 뒤 필요한 플러그인을 하나씩 추가하고 Cardboard 호환성 검증
+6. 백업·재시작·재접속을 포함해 테스트한 뒤 실제 친구용 서버로 옮김
