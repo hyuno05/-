@@ -29,7 +29,7 @@
 - Just Enough Items `19.70.0.469`: 위 통합 모드의 필수 JEI 의존성
 - Sodium `0.8.13`: 렌더링 최적화
 
-[JourneyMap 클라이언트 ZIP 다운로드](./downloads/JourneyMap-1.21.1-Fabric.zip)
+[JourneyMap + 포켓몬 추적 클라이언트 ZIP 다운로드](https://github.com/hyuno05/-/releases/download/journey-map-pokemon-v1.10.2/JourneyMap-1.21.1-Fabric.zip)
 
 Fabric API `0.116.17+1.21.1`, Fabric Language Kotlin `1.14.2`, Architectury API `13.0.11`은 필수 의존성입니다. REI/JEI/EMI 중 EMI를 선택했습니다.
 
