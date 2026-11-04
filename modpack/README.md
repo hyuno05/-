@@ -53,7 +53,7 @@ Chunky는 명령으로 지형을 사전 생성할 때만 사용합니다. 최적
 
 ## Cobbleverse 통합 팩
 
-[`COBBLEVERSE-Friends-1.21.1-Fabric.mrpack`](https://github.com/hyuno05/-/releases/download/cobbleverse-friends-v1.7.42/COBBLEVERSE-Friends-1.21.1-Fabric.mrpack)은 Cobbleverse 1.7.42를 메인 베이스로 사용합니다. Lithium, FerriteCore, Highlight, Sodium, Fabric API, Architectury API, Fabric Language Kotlin은 Cobbleverse 버전을 유지했습니다.
+[`COBBLEVERSE-Compatible-1.21.1-Fabric.mrpack`](https://github.com/hyuno05/-/releases/download/cobbleverse-compatible-v1.7.42/COBBLEVERSE-Compatible-1.21.1-Fabric.mrpack)은 Cobbleverse 1.7.42를 메인 베이스로 사용합니다. Lithium, FerriteCore, Highlight, Sodium, Fabric API, Architectury API, Fabric Language Kotlin은 Cobbleverse 버전을 유지했습니다. Farmer's Delight, 귀환서 모드, C2ME는 호환성 문제를 막기 위해 제외했습니다.
 
 호환 확인 후 추가한 모드는 다음과 같습니다.
 

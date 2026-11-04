@@ -34,7 +34,7 @@
 
 Fabric API `0.116.14+1.21.1`, Fabric Language Kotlin `1.13.13`, Architectury API `13.0.8`은 Cobbleverse 제공 라이브러리입니다. 중복 모드인 기존 Lithium, FerriteCore, Highlight, Sodium은 제외했습니다.
 
-[Cobbleverse + 친구 서버 통합 모드팩 다운로드](https://github.com/hyuno05/-/releases/download/cobbleverse-friends-v1.7.42/COBBLEVERSE-Friends-1.21.1-Fabric.mrpack)
+[호환성 수정된 Cobbleverse 모드팩 다운로드](https://github.com/hyuno05/-/releases/download/cobbleverse-compatible-v1.7.42/COBBLEVERSE-Compatible-1.21.1-Fabric.mrpack)
 
 전체 모드 구성은 Modrinth App에서 가져올 수 있는 [`Cobblemon-Server-Mods-1.21.1-Fabric.mrpack`](./Cobblemon-Server-Mods-1.21.1-Fabric.mrpack)으로 제공합니다. 모드 JAR은 각 제작자의 Modrinth 배포처에서 런처가 내려받습니다.
 
