@@ -25,6 +25,8 @@
 - Cobblemon Highlight `1.1.0`
 - Cobblemon Info `2.32.1` with EMI `1.1.24`
 - JourneyMap `6.0.9`: Fabric 1.21.1용 클라이언트 지도 모드
+- Cobblemon JEI & JourneyMap Integration `1.10.2`: JourneyMap에서 포켓몬 종과 스폰 가능 구역을 추적하는 클라이언트 모드
+- Just Enough Items `19.70.0.469`: 위 통합 모드의 필수 JEI 의존성
 - Sodium `0.8.13`: 렌더링 최적화
 
 [JourneyMap 클라이언트 ZIP 다운로드](./downloads/JourneyMap-1.21.1-Fabric.zip)
