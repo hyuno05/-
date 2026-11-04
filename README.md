@@ -5,6 +5,7 @@
 ## 시작 구성안
 
 - Minecraft `1.21.1`
+- Cobbleverse `1.7.42` 메인 모드팩
 - Fabric 모드 로더
 - 귀환서는 이 프로젝트의 Fabric 모드로 구현
 - 지도 기능은 Cobblemon 자체 기능 사용
@@ -12,7 +13,7 @@
 
 ### 서버 모드
 
-- Cobblemon `1.8.2`
+- Cobblemon `1.7.3`: Cobbleverse 기본 버전
 - Farmer's Delight Refabricated `3.3.6`: 농사와 요리 확장
 - Cobblemon - Exp. All `0.0.2`
 - Cobblemon Ultra Space `1.4.1`
@@ -31,7 +32,9 @@
 
 [JourneyMap + 포켓몬 추적 클라이언트 ZIP 다운로드](https://github.com/hyuno05/-/releases/download/journey-map-pokemon-v1.10.2/JourneyMap-1.21.1-Fabric.zip)
 
-Fabric API `0.116.17+1.21.1`, Fabric Language Kotlin `1.14.2`, Architectury API `13.0.11`은 필수 의존성입니다. REI/JEI/EMI 중 EMI를 선택했습니다.
+Fabric API `0.116.14+1.21.1`, Fabric Language Kotlin `1.13.13`, Architectury API `13.0.8`은 Cobbleverse 제공 라이브러리입니다. 중복 모드인 기존 Lithium, FerriteCore, Highlight, Sodium은 제외했습니다.
+
+[Cobbleverse + 친구 서버 통합 모드팩 다운로드](https://github.com/hyuno05/-/releases/download/cobbleverse-friends-v1.7.42/COBBLEVERSE-Friends-1.21.1-Fabric.mrpack)
 
 전체 모드 구성은 Modrinth App에서 가져올 수 있는 [`Cobblemon-Server-Mods-1.21.1-Fabric.mrpack`](./Cobblemon-Server-Mods-1.21.1-Fabric.mrpack)으로 제공합니다. 모드 JAR은 각 제작자의 Modrinth 배포처에서 런처가 내려받습니다.
 

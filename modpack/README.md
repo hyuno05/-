@@ -3,10 +3,11 @@
 ## 설치 기준
 
 - Minecraft 1.21.1
-- Fabric Loader 0.19.5
+- Cobbleverse 1.7.42 기반
+- Fabric Loader 0.18.4
 - Java 21 이상
-- Fabric API 0.116.17+1.21.1
-- Cobblemon 1.8.2
+- Fabric API 0.116.14+1.21.1
+- Cobblemon 1.7.3
 
 이 파일은 Modrinth `.mrpack` 모드팩입니다. JAR 파일을 재배포하는 대신 공식 Modrinth 다운로드를 참조하므로, Modrinth App에서 가져오면 필요한 파일이 자동으로 설치됩니다. 전용 서버에 설치할 때는 `.mrpack`을 지원하고 서버/클라이언트 구분 정보를 따르는 서버용 설치 도구를 사용하세요. 클라이언트 전용 모드는 서버에 설치하지 않습니다.
 
@@ -14,7 +15,7 @@
 
 ### 서버와 클라이언트 공통
 
-- Cobblemon 1.8.2: 포켓몬 수집과 배틀을 제공하는 기본 모드
+- Cobblemon 1.7.3: Cobbleverse가 제공하는 기본 포켓몬 모드
 - Cobblemon - Exp. All 0.0.2: 파티 포켓몬의 경험치 획득을 돕는 모드
 - Cobblemon Ultra Space 1.4.1: 울트라 스페이스 차원 콘텐츠 추가
 
@@ -29,9 +30,9 @@
 ## 함께 포함한 이전 모드와 필수 라이브러리
 
 - Farmer's Delight Refabricated 3.3.6: 농사와 요리 콘텐츠 추가
-- Fabric API 0.116.17: Fabric 모드들이 사용하는 공통 기능 라이브러리
-- Architectury API 13.0.11: 여러 모드 로더에서 공통 기능을 제공하는 라이브러리
-- Fabric Language Kotlin 1.14.2: Kotlin으로 작성된 모드의 실행 라이브러리
+- Fabric API 0.116.14: Cobbleverse가 제공하는 Fabric 공통 기능 라이브러리
+- Architectury API 13.0.8: Cobbleverse가 제공하는 모드 로더 공통 라이브러리
+- Fabric Language Kotlin 1.13.13: Cobbleverse가 제공하는 Kotlin 실행 라이브러리
 
 ## 최적화 및 운영 모드
 
@@ -49,6 +50,21 @@
 - Sodium 0.8.13: 렌더링 성능과 프레임률을 개선하는 클라이언트 모드
 
 Chunky는 명령으로 지형을 사전 생성할 때만 사용합니다. 최적화 모드는 서버 성능과 설정에 따라 효과가 다르며, 실제 운영 전에 백업한 테스트 월드에서 확인하세요.
+
+## Cobbleverse 통합 팩
+
+[`COBBLEVERSE-Friends-1.21.1-Fabric.mrpack`](https://github.com/hyuno05/-/releases/download/cobbleverse-friends-v1.7.42/COBBLEVERSE-Friends-1.21.1-Fabric.mrpack)은 Cobbleverse 1.7.42를 메인 베이스로 사용합니다. Lithium, FerriteCore, Highlight, Sodium, Fabric API, Architectury API, Fabric Language Kotlin은 Cobbleverse 버전을 유지했습니다.
+
+호환 확인 후 추가한 모드는 다음과 같습니다.
+
+- Farmer's Delight Refabricated 3.3.6
+- Cobblemon - Exp. All 0.0.2
+- Cobblemon Party Extras 1.8.15
+- Cobbledex 2.32.1
+- EMI 1.1.24
+- Cobblemon Ultra Space 1.4.1
+- Chunky 1.4.23
+- 귀환서 서버 모드 0.1.0
 
 ## 지도
 
