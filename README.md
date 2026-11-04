@@ -24,10 +24,10 @@
 - Cobblemon Party Extras `1.8.15`
 - Cobblemon Highlight `1.1.0`
 - Cobblemon Info `2.32.1` with EMI `1.1.24`
-- Xaero's Minimap `26.6.0`: Fabric 1.21.1용 클라이언트 지도 모드
+- JourneyMap `6.0.9`: Fabric 1.21.1용 클라이언트 지도 모드
 - Sodium `0.8.13`: 렌더링 최적화
 
-[Xaero's Minimap 클라이언트 ZIP 다운로드](./downloads/Xaeros-Minimap-1.21.1-Fabric.zip)
+[JourneyMap 클라이언트 ZIP 다운로드](./downloads/JourneyMap-1.21.1-Fabric.zip)
 
 Fabric API `0.116.17+1.21.1`, Fabric Language Kotlin `1.14.2`, Architectury API `13.0.11`은 필수 의존성입니다. REI/JEI/EMI 중 EMI를 선택했습니다.
 
@@ -60,7 +60,7 @@ Chunky로 지형을 미리 만들려면 운영자 권한으로 `/chunky center <
 
 ### 탐험 지도
 
-지도 기능은 Cobblemon 자체 기능을 사용합니다. 별도의 JourneyMap 설치는 필요하지 않습니다.
+JourneyMap `6.0.9` 클라이언트 모드를 사용합니다.
 
 귀환서 모드는 빌드까지 확인했습니다. 실제 Minecraft에서의 플레이 테스트는 아직 필요합니다.
 

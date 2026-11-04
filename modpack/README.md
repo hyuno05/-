@@ -23,7 +23,7 @@
 - Cobblemon Party Extras 1.8.15: 파티 화면과 포켓몬 관리 편의 기능
 - Cobblemon Highlight 1.1.0: 월드에서 포켓몬을 눈에 띄게 표시
 - Cobblemon Info for REI / JEI / EMI 2.32.1: 포켓몬 관련 아이템·정보 표시 기능
-- Xaero's Minimap 26.6.0: Minecraft 1.21.1용 클라이언트 미니맵
+- JourneyMap 6.0.9: Minecraft 1.21.1용 클라이언트 지도 모드
 - EMI 1.1.24: 아이템과 조리법을 검색하는 뷰어. Cobblemon Info의 연동 대상으로 사용
 
 ## 함께 포함한 이전 모드와 필수 라이브러리
@@ -52,7 +52,7 @@ Chunky는 명령으로 지형을 사전 생성할 때만 사용합니다. 최적
 
 ## 지도
 
-Xaero's Minimap 26.6.0 클라이언트 모드를 별도 ZIP으로 제공합니다. 서버에는 넣지 않고, 각 플레이어의 게임 `mods` 폴더에만 설치합니다. JourneyMap은 포함하지 않습니다.
+JourneyMap 6.0.9 클라이언트 모드를 별도 ZIP으로 제공합니다. 서버에는 넣지 않고, 각 플레이어의 게임 `mods` 폴더에만 설치합니다.
 
 ## 라이선스 및 다운로드
 
