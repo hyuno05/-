@@ -24,7 +24,10 @@
 - Cobblemon Party Extras `1.8.15`
 - Cobblemon Highlight `1.1.0`
 - Cobblemon Info `2.32.1` with EMI `1.1.24`
+- Xaero's Minimap `26.6.0`: Fabric 1.21.1용 클라이언트 지도 모드
 - Sodium `0.8.13`: 렌더링 최적화
+
+[Xaero's Minimap 클라이언트 ZIP 다운로드](./downloads/Xaeros-Minimap-1.21.1-Fabric.zip)
 
 Fabric API `0.116.17+1.21.1`, Fabric Language Kotlin `1.14.2`, Architectury API `13.0.11`은 필수 의존성입니다. REI/JEI/EMI 중 EMI를 선택했습니다.
 
